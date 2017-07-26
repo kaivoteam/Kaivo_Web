@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kaivo2</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <%= stylesheet_link_tag href='https://fonts.googleapis.com/css?family=Montserrat:400,700' %>
+    <%= stylesheet_link_tag href='https://fonts.googleapis.com/css?family=Kaushan+Script' %>
+    <%= stylesheet_link_tag href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' %>
+    <%= stylesheet_link_tag href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' %>
+
+  </head>
+
+  <body id="page-top" class="index">
+    <%= render 'layouts/navigation'%>
+	<!--%= render 'layouts/header' %>-->
+	<div>
+		<%= yield %>
+	</div>
+	<%= render 'layouts/footer' %>
+  </body>
+</html>
