@@ -6,5 +6,5 @@ Kaivo les presenta HolSense, un dispositivo de proyección de contenido multimed
 
 Sígueno en nuestras redes sociales:
 
-[Facebook: fabebook.com/holsense](https://www.facebook.com/holsense/)
-[Instagram: hol.sense](https://www.instagram.com/hol.sense)
+* [Facebook: fabebook.com/holsense](https://www.facebook.com/holsense/)
+* [Instagram: hol.sense](https://www.instagram.com/hol.sense)
