@@ -1,24 +1,10 @@
-# README
+# Kaivo HolSense
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Kaivo es una pre-emresa conformada por estudiantes de informática de la Universidad Técnica Federico Santa María.
 
-Things you may want to cover:
+Kaivo les presenta HolSense, un dispositivo de proyección de contenido multimedia 3D que integra interactividad y dinamismo, ofreciendo un aprendizaje exploratorio desde diferentes perspectivas en que el estudiante participa efectivamente en la construcción de conocimiento.
 
-* Ruby version
+Sígueno en nuestras redes sociales:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[Facebook: fabebook.com/holsense](https://www.facebook.com/holsense/)
+[Instagram: hol.sense](https://www.instagram.com/hol.sense)
