@@ -6,9 +6,15 @@
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">Kaivo
-           <!-- <img class="img_footer" src="/logos/logo-kaivo.png">-->
-            </a>
+            <div class="navbar-brand page-scroll">
+              <a href="#page-top">
+                <div  class="logo-container">
+                    <img src="/logos/logo-kaivo-nav.png" class="img-responsive center-block" alt="Kaivo">
+                  <div class="navbar-text"> Kaivo</div>
+                </div>
+             <!-- <img class="img_footer" src="/logos/logo-kaivo.png">-->
+              </a>
+            </div>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -17,17 +23,17 @@
                 <li class="hidden">
                     <a href="#page-top"></a>
                 </li>
-                <li>
-                    <%= link_to 'Inicio', pages_path %>
+                <li >
+                    <%= link_to 'Inicio', pages_path, class: "scroll" %>
+                </li>
+                <li >
+                    <%= link_to '¿Quienes somos?', us_path, class: "scroll" %>
+                </li>
+                <li >
+                    <%= link_to 'HolSense', holsense_path, class: "scroll" %>
                 </li>
                 <li>
-                    <%= link_to '¿Quienes somos?', us_path %>
-                </li>
-                <li>
-                    <%= link_to 'HolSense', holsense_path %>
-                </li>
-                <li>
-                    <%= link_to 'Contáctanos', new_contact_path %>
+                    <%= link_to 'Contáctanos', new_contact_path, class: "scroll"%>
                 </li>
             </ul>
         </div>

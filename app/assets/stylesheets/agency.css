@@ -13,6 +13,14 @@ body {
 .text-primary {
   color: #fed136;
 }
+.navbar-default .navbar-text {
+  color: #ffff00;
+}
+a.active {
+  background:#e9d319;
+  color: #000;
+}
+
 p {
   font-size: 14px;
   line-height: 1.75;
@@ -45,6 +53,9 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+}
+textarea {
+  resize: none;
 }
 .img-centered {
   margin: 0 auto;
@@ -146,8 +157,27 @@ fieldset[disabled] .btn-xl.active {
   color: #fed136;
   background-color: white;
 }
+
+.logo-container > {
+  display: inline-block;
+  float: left;
+}
+
+.logo-container > img {
+  display: inline-block;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .navbar-text {
+    float: left;
+    margin-left: 0px;
+    margin-right: 15px;
+  }
+}
+
 .navbar-custom {
-  background-color: #222222;
+  background-color: #00897B;
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
@@ -205,7 +235,7 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    background-color: transparent;
+    background-color: #00897B;
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
@@ -653,6 +683,32 @@ ul.auspiciadores img {
   max-width: 100%; 
   height: auto;
   padding-top: 10px; 
+}
+
+ul.social-buttons-asd {
+  margin-bottom: 0;
+  text-align: left;
+}
+ul.social-buttons-asd li a {
+  display: block;
+  background-color: #222222;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  float:left;
+  text-align: center;
+}
+ul.social-buttons-asd li a:hover,
+ul.social-buttons-asd li a:focus,
+ul.social-buttons-asd li a:active {
+  background-color: #fed136;
 }
 
 ul.social-buttons {

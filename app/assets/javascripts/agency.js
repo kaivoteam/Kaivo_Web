@@ -29,5 +29,11 @@
             top: 100
         }
     })
+    
+    //HAAALP no pesca el js
+    $("a.scroll ").click(function() {
+        $("a.scroll").removeClass("active");
+        $(this).addClass("active");
+    });
 
 })(jQuery); // End of use strict
