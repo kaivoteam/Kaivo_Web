@@ -9,13 +9,13 @@
                 <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
             <div class="navbar-brand page-scroll">
-              <a href="#page-top">
+              <%= link_to pages_path, id:'pages' do %>
                 <div  class="logo-container">
                     <img src="/logos/logo-kaivo-nav.png" class="img-responsive center-block" alt="Kaivo">
                   <div class="navbar-text"> Kaivo</div>
                 </div>
              <!-- <img class="img_footer" src="/logos/logo-kaivo.png">-->
-              </a>
+              <% end -%>
             </div>
         </div>
 
