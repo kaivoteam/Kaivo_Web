@@ -730,7 +730,9 @@ ul.social-buttons li a {
   float:left;
 }
 ul.social-buttons li a:hover,
-ul.social-buttons li a:focus,
+ul.social-buttons li a:focus{
+  background-color: #35fe64;
+}
 ul.social-buttons li a:active {
   background-color: #fed136;
 }
@@ -832,4 +834,8 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #fed136;
+}
+
+.active{
+  background-color: #fed136
 }

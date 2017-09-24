@@ -28,12 +28,23 @@
         offset: {
             top: 100
         }
-    })
-    
-    //HAAALP no pesca el js
-    $("a.scroll ").click(function() {
-        $("a.scroll").removeClass("active");
-        $(this).addClass("active");
     });
+    /*
+    $('a').each(function(){
+                //alert($(this).prop('href'));
+                if ($(this).prop('href') == window.location.href) {
+                    $(this).addClass('active');
+                     $(this).parents('li').addClass('active');
+                }
+    });
+
+
+    
+    $(document).on('click','a',function(event){
+     $('a.active').removeClass('active');
+     $(this).addClass('active');
+     alert($(this).text());
+    });
+    */
 
 })(jQuery); // End of use strict

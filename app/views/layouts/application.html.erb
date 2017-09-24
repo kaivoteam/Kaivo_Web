@@ -23,3 +23,19 @@
 	<%= render 'layouts/footer' %>
   </body>
 </html>
+
+<script type="text/javascript">
+  $(function(){
+        $('a').each(function(){
+            if ($(this).prop('href') == window.location.href) {
+                $(this).addClass('active'); 
+                $(this).parents('li').addClass('active');
+                return false;
+            }
+            if(window.location.href[window.location.href.length-1] == '/'){
+              $('a#pages').parents('li').addClass('active');
+              return false;
+            }
+        });
+    });
+</script>

@@ -1,6 +1,8 @@
 <!-- Navigation -->
+
 <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
     <div class="container">
+        
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -24,16 +26,16 @@
                     <a href="#page-top"></a>
                 </li>
                 <li >
-                    <%= link_to 'Inicio', pages_path, class: "scroll" %>
+                    <%= link_to 'Inicio', pages_path, class: "scroll", id:'pages' %>
                 </li>
                 <li >
-                    <%= link_to '¿Quienes somos?', us_path, class: "scroll" %>
+                    <%= link_to '¿Quienes somos?', us_path, class: "scroll", id:'us' %>
                 </li>
                 <li >
-                    <%= link_to 'HolSense', holsense_path, class: "scroll" %>
+                    <%= link_to 'HolSense', holsense_path, class: "scroll", id:'holsense' %>
                 </li>
                 <li>
-                    <%= link_to 'Contáctanos', new_contact_path, class: "scroll"%>
+                    <%= link_to 'Contáctanos', new_contact_path, class: "scroll", id: 'new'%>
                 </li>
             </ul>
         </div>
