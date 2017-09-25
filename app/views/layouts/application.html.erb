@@ -25,16 +25,27 @@
 </html>
 
 <script type="text/javascript">
+  $(document).on('click','a',function(event){
+    var clase = $(this).attr("class");
+    if(clase=='scroll active'){
+        event.preventDefault;
+      }
+  });
   $(function(){
+    //alert(window.location.href);
+        var largo_href = window.location.href.length;
+        var ultima_letra = window.location.href[largo_href-1];
+        var ultimas_letras = window.location.href.slice((largo_href - 5), largo_href.length);
         $('a').each(function(){
+            if( ultima_letra == '/' || ultimas_letras == 'pages'){
+              $('a#pages').parents('li').addClass('active');
+              $('a#pages').addClass('active'); 
+              return false;
+            }
             if ($(this).prop('href') == window.location.href) {
                 $(this).addClass('active'); 
                 $(this).parents('li').addClass('active');
                 return false;
-            }
-            if(window.location.href[window.location.href.length-1] == '/'){
-              $('a#pages').parents('li').addClass('active');
-              return false;
             }
         });
     });
