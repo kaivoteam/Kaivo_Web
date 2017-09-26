@@ -213,12 +213,12 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-custom {
-  background-color: #00897B;
+  background-color: #44B19E;
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: #00897B;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  color: #44B19E;
+  font-family:  "Droid Serif", "Helvetica Neue", Helvetica, Arial, cursive;
   padding: 0px;
 }
 
@@ -232,14 +232,14 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: #4E2449;
+  color: #9F4A96;
 }
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-toggle {
-  background-color: #00897B;
-  border-color: #00897B;
+  background-color: #44B19E;
+  border-color: #44B19E;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
@@ -247,7 +247,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #00897B;
+  background-color: #44B19E;
 }
 .navbar-custom .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -273,7 +273,7 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    background-color: #00897B;
+    background-color: #44B19E;
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
@@ -292,7 +292,7 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #00897B;
+    background-color: #44B19E;
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
@@ -693,10 +693,11 @@ section#contact .text-danger {
   color: #e74c3c;
 }
 footer {
-  background-color: #00897B;
+  background-color: #44B19E;
   padding: 25px 0;
   text-align: center;
   position: relative;
+      font-weight: bold;
 }
 footer span.copyright {
   line-height: 40px;
@@ -886,5 +887,5 @@ body {
 }
 
 .active{
-  background-color: #4E2449
+  background-color: transparent;
 }
