@@ -9,16 +9,17 @@
     </div>
 </header-->
 
-<section id="services">
+<!--section id="services">
         <div class="container">
-            <div class="fullscreen-bg">
-                <%= video_tag "cerebro.mp4", autoplay: :autoplay, loop: :loop, mute: :mute, class: "fullscreen-bg__video" %>
-            </div>
+            
             <div class="row">
                 
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Kaivo</h2>
-                    <h3 class="section-subheading text-muted">Somos la pre-empresa Kaivo conformada por estudiantes de informática de la Universidad Técnica Federico Santa María.</h3>
+                    <h1 class="section-heading inicio">Bienvenido a HolSense</h1>
+                    <h3 class="section-subheading text-muted inicio">Desarrollado por Kaivo</h3>
+                    <a class="btn btn-xl" href="https://www.youtube.com/embed/HZP5LEdbDOA?rel=0&amp;autoplay=1" data-rel="lightcase"><i class="fa fa-play"></i>Ver el video</a>
+
+                    <iframe src="http://www.youtube.com/embed/dP15zlyra3c?html5=1"></iframe>
                 </div>
             </div>
             <div class="row text-center">
@@ -48,5 +49,56 @@
                 </div>
             </div>
         </div>
+    </section-->
+
+
+
+<section id="services">
+        <div class="container">
+            <div class="fullscreen-bg">
+                <%= video_tag "fondo_3.ogv", autoplay: :autoplay, loop: :loop, mute: :mute, class: "fullscreen-bg__video" %>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="section-heading inicio">Bienvenido a HolSense</h1>
+                    <h3 class="section-subheading text-muted inicio">Desarrollado por Kaivo
+                        <img src="/logos/logo-kaivo-nav.png" class="img-responsive center-block" alt="">
+                    </h3>
+                    <a href="#portfolioModal1" class="portfolio-link btn btn-xl" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                Ver video!
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
 
+
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here >
+                                <h2>Project Name</h2-->
+                                <iframe src="https://www.youtube.com/embed/k9VV0L_2Fdw?rel=0&amp;autoplay=0" width="800" height="500" frameborder="0" style="width: 800px; height: 378px; max-width: 1300px; max-height: 378px;"></iframe>
+
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
