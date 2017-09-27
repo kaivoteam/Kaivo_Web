@@ -10,6 +10,9 @@ body {
 .text-muted {
   color: #777777;
 }
+.equipo {
+  text-align: justify;
+}
 .text-primary {
   color: #9F4A96;
 }
@@ -657,7 +660,7 @@ section#contact .form-group input.form-control {
   height: auto;
 }
 section#contact .form-group textarea.form-control {
-  height: 289px;
+  height: 150px;
 }
 section#contact .form-control:focus {
   border-color: #9F4A96;
