@@ -692,28 +692,31 @@ section#contact :-ms-input-placeholder {
 section#contact .text-danger {
   color: #e74c3c;
 }
+
+
 footer {
   background-color: #44B19E;
   padding: 25px 0;
   text-align: center;
   position: relative;
       font-weight: bold;
-  
 }
-footer span.copyright {
+
+.footer span.copyright {
   line-height: 40px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
+  text-align: center;
 }
-footer ul.quicklinks {
+.footer ul.quicklinks {
   margin-bottom: 0;
   line-height: 40px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
 }
-footer ul.auspiciadores li a {
+.footer ul.auspiciadores li a {
   display: block;
   background-color: transparent;
   width: 150px;
@@ -896,3 +899,28 @@ body {
 .active{
   background-color: transparent;
 }
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  background-color: #44B19E;
+}
+
+/*background-color: #44B19E;
+  padding: 25px 0;
+  text-align: center;
+  position: relative;
+      font-weight: bold;*/
