@@ -698,6 +698,7 @@ footer {
   text-align: center;
   position: relative;
       font-weight: bold;
+  
 }
 footer span.copyright {
   line-height: 40px;
@@ -885,6 +886,12 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #9F4A96;
 }
+
+#img_footer img{
+  width: 70%;
+  height: auto;
+}
+
 
 .active{
   background-color: transparent;
