@@ -227,8 +227,9 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-custom .navbar-brand a img{
   max-width: 100%; 
-  height: 8vh;
+  height: auto ;
   width: 50px;
+  display: inline-block;
 }
 
 .navbar-custom .navbar-brand:hover,
