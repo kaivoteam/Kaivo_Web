@@ -5,17 +5,24 @@
         
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only"></span> Menú <i class="fa fa-bars"></i>
-            </button>
             <div class="navbar-brand page-scroll">
-              <%= link_to pages_path, class:"scroll" , id:'pages' do %>
-                <div  class="logo-container">
-                    <img src="/logos/holsense_logo.png" class="img-responsive center-block" alt="HolSense">
-                  <!-- <div class="navbar-text"> HolSense</div> -->
+                <div class ="row" >
+                    <div class="col-md-2">
+                      <%= link_to pages_path, class:"scroll" , id:'pages' do %>
+                        <div  class="logo-container">
+                            <img src="/logos/holsense_logo.png" class="img-responsive center-block" alt="HolSense">
+                          <!-- <div class="navbar-text"> HolSense</div> -->
+                        </div>
+                     <!-- <img class="img_footer" src="/logos/logo-kaivo.png">-->
+                      <% end -%>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <h2 style="color: #9F4A96;"> HolSense <br> <h6> <div/> <div/> Desarrollado por Kaivo </h6> </h2> 
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <h6 style="visibility: hidden;">  Desarrollado por Kaivo </h6>
+                    </div>
                 </div>
-             <!-- <img class="img_footer" src="/logos/logo-kaivo.png">-->
-              <% end -%>
             </div>
         </div>
 

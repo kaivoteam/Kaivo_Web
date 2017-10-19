@@ -26,9 +26,9 @@ a.active {
 
 .fullscreen-bg {
     position: fixed;
-    top: 0;
+    top: 200;
     right: 0;
-    bottom: 0;
+    bottom: 200;
     left: 0;
     overflow: hidden;
     z-index: -100;
@@ -36,7 +36,7 @@ a.active {
 
 .fullscreen-bg__video {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     width: auto;
     height: auto;
@@ -46,7 +46,7 @@ a.active {
        -moz-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 @media (max-width: 767px) {
@@ -216,11 +216,11 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-custom {
-  background-color: #44B19E;
+  background-color: #13B1B2;
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: #44B19E;
+  color: #13B1B2;
   font-family:  "Droid Serif", "Helvetica Neue", Helvetica, Arial, cursive;
   padding: 0px;
 }
@@ -242,8 +242,8 @@ fieldset[disabled] .btn-xl.active {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-toggle {
-  background-color: #44B19E;
-  border-color: #44B19E;
+  background-color: #13B1B2;
+  border-color: #13B1B2;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
@@ -251,7 +251,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #44B19E;
+  background-color: #13B1B2;
 }
 .navbar-custom .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -277,7 +277,7 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    background-color: #44B19E;
+    background-color: #13B1B2;
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
@@ -296,7 +296,7 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #44B19E;
+    background-color: #13B1B2;
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
@@ -698,7 +698,7 @@ section#contact .text-danger {
 
 
 footer {
-  background-color: #44B19E;
+  background-color: #13B1B2;
   padding: 25px 0;
   text-align: center;
   position: relative;
@@ -919,10 +919,10 @@ html {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  background-color: #44B19E;
+  background-color: #13B1B2;
 }
 
-/*background-color: #44B19E;
+/*background-color: #13B1B2;
   padding: 25px 0;
   text-align: center;
   position: relative;
